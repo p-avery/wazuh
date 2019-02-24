@@ -29,14 +29,14 @@ These playbooks install and configure Wazuh agent, manager and Elastic Stack.
     │ │ ├── ansible-galaxy
     │ │ │ ├── meta
     │
-    │ ├── playbooks
-    │ │ ├── wazuh-agent.yml
-    │ │ ├── wazuh-elastic.yml
-    │ │ ├── wazuh-elastic_stack-distributed.yml
-    │ │ ├── wazuh-elastic_stack-single.yml
-    │ │ ├── wazuh-kibana.yml
-    │ │ ├── wazuh-logstash.yml
-    │ │ ├── wazuh-manager.yml
+    │
+    │ ├── wazuh-agent.yml
+    │ ├── wazuh-elastic.yml
+    │ ├── wazuh-elastic_stack-distributed.yml
+    │ ├── wazuh-elastic_stack-single.yml
+    │ ├── wazuh-kibana.yml
+    │ ├── wazuh-logstash.yml
+    │ ├── wazuh-manager.yml
     │
     │ ├── README.md
     │ ├── VERSION
