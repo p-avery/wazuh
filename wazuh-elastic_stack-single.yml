@@ -1,0 +1,6 @@
+- hosts: wazuh
+  roles:
+      - { role: wazuh/ansible-wazuh-manager}
+      - { role: elastic-stack/ansible-elasticsearch, elasticsearch_network_host: 'localhost'}
+      - { role: elastic-stack/ansible-logstash, elasticsearch_network_host: 'localhost' }
+      - { role: elastic-stack/ansible-kibana, elasticsearch_network_host: 'localhost' }

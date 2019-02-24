@@ -1,0 +1,3 @@
+- hosts: elastic
+  roles:
+    - {role: elastic-stack/ansible-elasticsearch, elasticsearch_network_host: 'localhost'}

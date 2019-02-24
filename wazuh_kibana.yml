@@ -1,0 +1,3 @@
+- hosts: elastic
+  roles:
+    - {role: elastic-stack/ansible-kibana, elasticsearch_network_host: 'localhost'}
